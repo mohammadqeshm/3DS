@@ -1,0 +1,6 @@
+{
+  "name": "3D Weather Simulator",
+  "description": "A realistic 3D real-time weather simulator with Three.js, incorporating three layers of realistic clouds, first-person control, wind physics for trees and flags, beach environment, dynamic sun angles, and synthetic wind sound effects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
