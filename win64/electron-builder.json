@@ -1,0 +1,38 @@
+{
+  "appId": "com.atmossim.v24pro",
+  "productName": "AtmosSim V2.4 Pro",
+  "copyright": "Copyright © 2026 AtmosSim",
+  "directories": {
+    "output": "dist_windows"
+  },
+  "files": [
+    "dist/**/*",
+    "win64/main.js",
+    "win64/preload.js",
+    "src/assets/images/app_icon_1781486855743.jpg"
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": [
+          "x64"
+        ]
+      },
+      {
+        "target": "zip",
+        "arch": [
+          "x64"
+        ]
+      }
+    ],
+    "icon": "src/assets/images/app_icon_1781486855743.jpg"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "AtmosSim V2.4 Pro"
+  }
+}
