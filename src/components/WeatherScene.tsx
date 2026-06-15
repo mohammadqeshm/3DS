@@ -189,7 +189,7 @@ export default function WeatherScene({
     groundGeom.computeVertexNormals();
 
     const sandMat = new THREE.MeshStandardMaterial({
-      color: 0xe2ceb5, // Beautiful warm sand
+      color: 0x2d5a27, // Lush green grass
       roughness: 0.9,
       metalness: 0.05,
       shadowSide: THREE.DoubleSide,
